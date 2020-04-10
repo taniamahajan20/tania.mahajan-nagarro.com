@@ -14,7 +14,8 @@
       "launchBrowser": true,
       "launchUrl": "user/1",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "JAEGER_URL": ""
       }
     },
     "UserService": {
@@ -22,7 +23,8 @@
       "launchBrowser": true,
       "launchUrl": "user/1",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "JAEGER_URL": ""
       },
       "applicationUrl": "https://localhost:1234"
     },
